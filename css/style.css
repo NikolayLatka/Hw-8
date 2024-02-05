@@ -1,0 +1,68 @@
+/* * Завдання 1 */ 
+.text-box h3:first-child {
+    color: pink;
+}
+
+#greycol {
+    color: gray;
+}
+
+.text-box div:nth-child(5) {
+    color: red;
+}
+
+.text-box p:nth-child(7) {
+    color: green;
+}
+
+.yellow {
+    color: yellow;
+}
+
+/* Завдання 2 */
+h2 {
+    color:darkcyan;
+}
+
+/* Кольора та 5 типів псевдокласи */
+.subjects ol :nth-child(1) {
+    color:aquamarine;
+}
+
+.subjects ol :nth-child(2) {
+    color: lawngreen;
+}
+
+.subjects ol :nth-child(3) {
+    color: mediumpurple;
+}
+
+.subjects ol :nth-child(4) {
+    color: palevioletred;
+}
+
+.subjects ol :last-child {
+    color: fuchsia;
+}
+
+/* Псевдокласи стану */
+.subjects li:hover {
+    background-color: black;
+}
+
+.subjects:checked {
+    color: blue;
+}
+
+.subjects li:first {
+    text-decoration-line: overline ;
+}
+
+.subjects:focus {
+    background-color: brown;
+}
+
+.subjects:disabled {
+    background-color: bisque;
+}
+
